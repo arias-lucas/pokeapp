@@ -1,0 +1,6 @@
+.border-card {
+  border: solid 1px black;
+  width: 250px;
+  height: 200px;
+  margin: 5px;
+}
