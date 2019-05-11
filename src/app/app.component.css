@@ -1,0 +1,7 @@
+.navbar-title {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+}
