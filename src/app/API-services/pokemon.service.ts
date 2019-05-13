@@ -9,7 +9,7 @@ export class PokemonService {
 
   constructor(private httpClient: HttpClient) {}
 
-  getPokemonById(id: number) {
+  getPokemonById(id) {
     return this.httpClient.get(`${this.apiURL}/pokemon/${id}`);
   }
 

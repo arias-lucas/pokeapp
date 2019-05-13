@@ -1,5 +1,9 @@
 <div class="container">
   <div class="dashboard-dimensions">
-    <pokecard *ngFor="let pokemon of pokemons" [pokemon]="pokemon"></pokecard>
+    <pokecard
+      *ngFor="let pokemon of pokemons; let i = index"
+      [pokemon]="pokemon"
+      [index]="i"
+    ></pokecard>
   </div>
 </div>

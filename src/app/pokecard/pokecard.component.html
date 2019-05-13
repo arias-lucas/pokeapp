@@ -1,4 +1,6 @@
-<div class="border-card">
-  <img src="https://via.placeholder.com/250x150" />
+<div (click)="onClick(pokemon)" class="border-card">
+  <div class="sprite-card">
+    <img src="{{ getSprite(index) }}" />
+  </div>
   <div class="title-card">{{ pokemon.name }}</div>
 </div>
