@@ -20,7 +20,7 @@ export class PokecardComponent {
   }
 
   getSprite(id) {
-    // return "";
-    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${++id}.png`;
+    return "";
+    // return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${++id}.png`;
   }
 }
